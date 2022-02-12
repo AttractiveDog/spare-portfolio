@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import insta from "../../Assets/Projects/insta.png";
+import blog from "../../Assets/Projects/blog.jpg";
+import ethSend from "../../Assets/Projects/ethSend.png";
+import socialcode from "../../Assets/Projects/socialcode.png";
+import vidCon from "../../Assets/Projects/vidCon.png";
+import emoDetct from "../../Assets/Projects/emoDetct.jpeg";
 
 function Projects() {
   return (
@@ -24,62 +24,62 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={insta}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Social Media(Instaram clone)"
+              description="An accurate instagram clone which is fully functional. This app has Home, Explore, Reels, Activity and profile screen. Built With react native and expo."
+              link="https://github.com"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={blog}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Blog"
+              description="Fully functiona blog app that has all the feature that a ordinary blog app has including posting blog adding images comment liking a blog following the author custimizing the feeds. This app has a admin pannel where admin( I ) can see the analytics of every blog post."
+              link="https://github.com"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={ethSend}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Ether Send"
+              description="Fully decentrilized ethereum send website to send ethereum form one account to another. The transaction is validated by the Solodity code. The best part is that this made on web 3.0"
+              link="https://deployment-for-ethereum-project.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={socialcode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Social Code"
+              description="A social media which is fully secured by encryption and is decenterilized. It has every feature that a social media has. It just needs a better UI."
               link="https://github.com/soumyajit4419/Bits-0f-C0de"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={vidCon}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Video Confrencing"
+              description="A video confrencing site which is fully free and has no limit of features. It has creating a meeting, Sharing the meeting link, Admin only settings, screen share, Messaging, privete Messinging etc."
+              link="https://mediacall.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={emoDetct}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              link="https://github.com/google/mediapipe"
             />
           </Col>
         </Row>
