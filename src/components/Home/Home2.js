@@ -2,12 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import avatar from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { SiFiverr } from "react-icons/si";
+import { MdOutlineAlternateEmail } from "react-icons/md";
 
 function Home2() {
   return (
@@ -67,42 +63,22 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/paritosh921"
+                  href="https://www.fiverr.com/hardcoredev"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <SiFiverr />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/"
+                  href="mailto:hardcoredev1@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/paritosh-mishra-481219216/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/paritosh.mishra01/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
+                  <MdOutlineAlternateEmail />
                 </a>
               </li>
             </ul>
