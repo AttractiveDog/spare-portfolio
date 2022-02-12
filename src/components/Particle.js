@@ -1,5 +1,5 @@
 import React from "react";
-import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
 
 function Particle() {
   return (
@@ -10,42 +10,42 @@ function Particle() {
             value: 160,
             density: {
               enable: true,
-              value_area: 1500,
-            },
+              value_area: 1500
+            }
           },
           line_linked: {
             enable: false,
-            opacity: 0.03,
+            opacity: 0.03
           },
           move: {
             direction: "right",
-            speed: 0.05,
+            speed: 0.05
           },
           size: {
-            value: 1,
+            value: 1
           },
           opacity: {
             anim: {
               enable: true,
               speed: 1,
-              opacity_min: 0.05,
-            },
-          },
+              opacity_min: 0.05
+            }
+          }
         },
         interactivity: {
           events: {
             onclick: {
               enable: true,
-              mode: "push",
-            },
+              mode: "push"
+            }
           },
           modes: {
             push: {
-              particles_nb: 1,
-            },
-          },
+              particles_nb: 1
+            }
+          }
         },
-        retina_detect: true,
+        retina_detect: true
       }}
     />
   );
